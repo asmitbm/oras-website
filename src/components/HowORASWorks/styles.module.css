@@ -97,8 +97,4 @@
     .how_oras_works_content p {
         font-size: 20px;
     }
-
-    .how_oras_works_video iframe {
-        height: calc(100vh - 600px);
-    }
 }
