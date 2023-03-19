@@ -78,6 +78,10 @@
     .section_padding {
         padding: 4rem;
     }
+
+    .how_oras_works_video iframe {
+        height: calc(100vh - 500px);
+    }
 }
 
 @media screen and (max-width: 490px) {
@@ -92,5 +96,9 @@
 
     .how_oras_works_content p {
         font-size: 20px;
+    }
+
+    .how_oras_works_video iframe {
+        height: calc(100vh - 600px);
     }
 }
