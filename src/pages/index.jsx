@@ -4,6 +4,7 @@ import Layout from '@theme/Layout';
 import Header from '../components/Header';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import HowORASWorks from '../components/HowORASWorks';
+import Workflow from '../components/Workflow';
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
@@ -14,7 +15,8 @@ export default function Home() {
       <main>
         <Header />
         <HowORASWorks />
-        <HomepageFeatures />
+        <Workflow />
+        {/*<HomepageFeatures />*/}
       </main>
     </Layout>
   );

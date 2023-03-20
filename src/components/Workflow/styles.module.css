@@ -1,0 +1,31 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+.workflow {
+    display: flex;
+}
+
+.section_padding {
+    padding: 4rem 6rem;
+}
+
+.workflow_image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 50vw;
+}
+
+@media screen and (max-width: 650px) {
+    .section_padding {
+        padding: 4rem;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .section_padding {
+        padding: 3rem;
+    }
+}
