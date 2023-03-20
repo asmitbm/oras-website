@@ -57,10 +57,6 @@
     .header_content {
         margin: 0 0 3rem;
     }
-
-    .header_image img {
-        width: 40vh;
-    }
 }
 
 @media screen and (max-width: 650px) {
@@ -72,10 +68,6 @@
     .header h3 {
         font-size: 25px;
         line-height: 24px;
-    }
-
-    .header_image img {
-        display: none;
     }
 
     .section_padding {
