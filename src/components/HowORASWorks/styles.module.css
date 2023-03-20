@@ -59,12 +59,16 @@
         flex-direction: column;
     }
 
+    .how_oras_works_heading {
+        margin-bottom: 1rem;
+    }
+
     .how_oras_works_content {
-        margin: 0 0 3rem;
+        margin: 0 0 1rem;
     }
 
     .how_oras_works_video iframe {
-        height: calc(100vh - 400px);
+        min-height: 300px;
     }
 
 }
@@ -76,11 +80,11 @@
     }
 
     .section_padding {
-        padding: 4rem;
+        padding: 2rem;
     }
 
     .how_oras_works_video iframe {
-        height: calc(100vh - 500px);
+        min-height: 250px;
     }
 }
 
@@ -90,11 +94,11 @@
         line-height: 48px;
     }
 
-    .section_padding {
-        padding: 3rem;
-    }
-
     .how_oras_works_content p {
         font-size: 20px;
+    }
+
+    .how_oras_works_video iframe {
+        min-height: 200px;
     }
 }
