@@ -20,12 +20,12 @@
 
 @media screen and (max-width: 650px) {
     .section_padding {
-        padding: 4rem;
+        padding: 2rem;
     }
 }
 
 @media screen and (max-width: 490px) {
     .section_padding {
-        padding: 3rem;
+        padding: 2rem;
     }
 }
