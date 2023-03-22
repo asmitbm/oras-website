@@ -117,6 +117,14 @@ const config = {
                 label: 'Introduction',
                 to: '/docs/index',
               },
+              {
+                label: 'CLI',
+                to: '/docs/CLI',
+              },
+              {
+                label: 'CLI Reference',
+                to: '/docs/CLI_Reference/',
+              },
             ],
           },
           {
