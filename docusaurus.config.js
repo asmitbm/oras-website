@@ -51,6 +51,13 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/asmitbm/oras-website/tree/main/',
+          lastVersion: 'current',
+          versions: {
+            current: {
+              label: '1.0.0',
+              path: '1.0.0',
+            },
+          },
         },
         blog: {
           showReadingTime: true,
@@ -84,6 +91,11 @@ const config = {
             label: 'Docs',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
+          {
+            type: 'docsVersionDropdown',
+            position: 'right',
+            dropdownActiveClassDisabled: true,
+          },
           {
             to: 'https://cloud-native.slack.com/archives/CJ1KHJM5Z',
             label: ' ',
