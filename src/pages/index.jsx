@@ -1,10 +1,10 @@
 import React from 'react';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import Header from '../components/Header';
+import Header from '@site/src/components/Header';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import HowORASWorks from '../components/HowORASWorks';
-import Workflow from '../components/Workflow';
+import HowORASWorks from '@site/src/components/HowORASWorks';
+import Workflow from '@site/src/components/Workflow';
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
