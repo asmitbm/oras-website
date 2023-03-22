@@ -125,6 +125,10 @@ const config = {
                 label: 'CLI Reference',
                 to: '/docs/CLI_Reference/',
               },
+              {
+                label: 'Client Libraries',
+                to: '/docs/Client_Libraries/',
+              },
             ],
           },
           {
