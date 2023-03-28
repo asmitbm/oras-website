@@ -8,6 +8,7 @@ export default function Workflow() {
         <div className={[styles.workflow, styles.section_padding].join(' ')}>
             <div className={styles.how_oras_works}>
                 <h1 className="gradient_text">How ORAS Works?</h1>
+                <p>Able to distribute any artifacts across OCI-compliant registries or OCI Image Layout.</p>
             </div>
             <div className={styles.workflow_image}>
                 <ThemedImage
