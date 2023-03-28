@@ -3,7 +3,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Header from '@site/src/components/Header';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import HowORASWorks from '@site/src/components/HowORASWorks';
+import WhatIsORAS from '@site/src/components/WhatIsORAS';
 import Workflow from '@site/src/components/Workflow';
 import CommunityLogos from '../components/CommunityLogos';
 
@@ -16,7 +16,7 @@ export default function Home() {
       <main>
         <Header />
         <CommunityLogos />
-        <HowORASWorks />
+        <WhatIsORAS />
         <Workflow />
         {/*<HomepageFeatures />*/}
       </main>

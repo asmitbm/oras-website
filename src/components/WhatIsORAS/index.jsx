@@ -1,19 +1,19 @@
 import React from 'react';
 import styles from './styles.module.css';
 
-export default function HowORASWorks() {
+export default function WhatIsORAS() {
     return (
-        <div className={[styles.how_oras_works, styles.section_padding].join(' ')}>
-            <div className={styles.how_oras_works_heading}>
-                <h1 className="gradient_text">How ORAS Works?</h1>
+        <div className={[styles.what_is_oras, styles.section_padding].join(' ')}>
+            <div className={styles.what_is_oras_heading}>
+                <h1 className="gradient_text">What is ORAS?</h1>
             </div>
-            <div className={styles.how_oras_works_content}>
+            <div className={styles.what_is_oras_content}>
                 <p> ORAS is the de facto tool for working with OCI Artifacts.
                     It treats media types as a critical piece of the puzzle.
                     Container images are never assumed to be the artifact in question.
                 </p>
             </div>
-            <div className={styles.how_oras_works_video}>
+            <div className={styles.what_is_oras_video}>
                 <iframe
                     src="https://www.youtube.com/embed/lT2ZMRJrQsU"
                     title="Distributing Supply Chain Artifacts with OCI & ORAS Artifacts - Steve Lasker, Microsoft"

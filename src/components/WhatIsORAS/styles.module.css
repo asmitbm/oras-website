@@ -1,4 +1,4 @@
-.how_oras_works {
+.what_is_oras {
     display: flex;
     flex-wrap: wrap;
     display: flex;
@@ -10,7 +10,7 @@
     padding: 4rem 6rem;
 }
 
-.how_oras_works_heading {
+.what_is_oras_heading {
     width: 100%;
     text-align: center;
     display: flex;
@@ -19,35 +19,35 @@
     margin-bottom: 2rem;
 }
 
-.how_oras_works_heading h1 {
+.what_is_oras_heading h1 {
     font-weight: 700;
     font-size: 50px;
     line-height: 55px;
     color: var(--ifm-color-primary);
 }
 
-.how_oras_works_content {
+.what_is_oras_content {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.how_oras_works_content p {
+.what_is_oras_content p {
     font-size: 22px;
     font-weight: 400;
     text-align: justify;
     padding: 15px;
 }
 
-.how_oras_works_video {
+.what_is_oras_video {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.how_oras_works_video iframe {
+.what_is_oras_video iframe {
     aspect-ratio: 16 / 9;
     width: 100%;
     height: 100%;
@@ -55,26 +55,26 @@
 }
 
 @media screen and (max-width: 1050px) {
-    .how_oras_works {
+    .what_is_oras {
         flex-direction: column;
     }
 
-    .how_oras_works_heading {
+    .what_is_oras_heading {
         margin-bottom: 1rem;
     }
 
-    .how_oras_works_content {
+    .what_is_oras_content {
         margin: 0 0 1rem;
     }
 
-    .how_oras_works_video iframe {
+    .what_is_oras_video iframe {
         min-height: 300px;
     }
 
 }
 
 @media screen and (max-width: 650px) {
-    .how_oras_works_heading h1 {
+    .what_is_oras_heading h1 {
         font-size: 40px;
         line-height: 60px;
     }
@@ -83,22 +83,22 @@
         padding: 2rem;
     }
 
-    .how_oras_works_video iframe {
+    .what_is_oras_video iframe {
         min-height: 250px;
     }
 }
 
 @media screen and (max-width: 490px) {
-    .how_oras_works_heading h1 {
+    .what_is_oras_heading h1 {
         font-size: 35px;
         line-height: 48px;
     }
 
-    .how_oras_works_content p {
+    .what_is_oras_content p {
         font-size: 20px;
     }
 
-    .how_oras_works_video iframe {
+    .what_is_oras_video iframe {
         min-height: 200px;
     }
 }
