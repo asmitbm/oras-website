@@ -5,6 +5,7 @@ import Header from '@site/src/components/Header';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import HowORASWorks from '@site/src/components/HowORASWorks';
 import Workflow from '@site/src/components/Workflow';
+import CommunityLogos from '../components/CommunityLogos';
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
@@ -14,6 +15,7 @@ export default function Home() {
       description="Description will go into a meta tag in <head />">
       <main>
         <Header />
+        <CommunityLogos />
         <HowORASWorks />
         <Workflow />
         {/*<HomepageFeatures />*/}
