@@ -6,6 +6,7 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import WhatIsORAS from '@site/src/components/WhatIsORAS';
 import Workflow from '@site/src/components/Workflow';
 import CommunityLogos from '../components/CommunityLogos';
+import Libraries from '../components/Libraries';
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
@@ -18,6 +19,7 @@ export default function Home() {
         <CommunityLogos />
         <WhatIsORAS />
         <Workflow />
+        <Libraries />
         {/*<HomepageFeatures />*/}
       </main>
     </Layout>
