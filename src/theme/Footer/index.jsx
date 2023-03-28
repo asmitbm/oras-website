@@ -11,6 +11,7 @@ export default function FooterWrapper(props) {
         <h4>We are a <a href="https://www.cncf.io/" target="_blank">Cloud Native Computing Foundation</a> Sandbox Project.</h4>
         <ThemedImage
           alt="Docusaurus themed image"
+          width="300px"
           sources={{
             light: useBaseUrl('/img/cncf_light.svg'),
             dark: useBaseUrl('/img/cncf_dark.svg'),

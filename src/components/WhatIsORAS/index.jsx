@@ -11,6 +11,7 @@ export default function WhatIsORAS() {
                 <p> ORAS is the de facto tool for working with OCI Artifacts.
                     It treats media types as a critical piece of the puzzle.
                     Container images are never assumed to be the artifact in question.
+                    ORAS provides CLI and client libraries to distribute artifacts across OCI-compliant registries.
                 </p>
             </div>
             <div className={styles.what_is_oras_video}>
