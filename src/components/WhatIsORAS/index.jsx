@@ -5,7 +5,7 @@ export default function WhatIsORAS() {
     return (
         <div className={[styles.what_is_oras, styles.section_padding].join(' ')}>
             <div className={styles.what_is_oras_heading}>
-                <h1 className="gradient_text">What is ORAS?</h1>
+                <h1>What is ORAS?</h1>
             </div>
             <div className={styles.what_is_oras_content}>
                 <p> ORAS is the de facto tool for working with OCI Artifacts.

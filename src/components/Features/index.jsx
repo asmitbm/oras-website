@@ -31,6 +31,9 @@ const features = [
 export default function Features() {
     return (
         <div className={[styles.features, styles.section_padding].join(' ')}>
+            <div className={styles.features_oras}>
+                <h1>Features of ORAS</h1>
+            </div>
             {features.map(({ title, content }, index) => (
                 <div className={styles.feature_card} key={index}>
                     <div />

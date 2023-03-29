@@ -3,11 +3,26 @@
     flex-wrap: wrap;
     gap: 3rem;
     justify-content: center;
-    margin: 1rem;
 }
 
 .section_padding {
     padding: 4rem 6rem;
+}
+
+.features_oras {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.features_oras h1 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 55px;
+    color: var(--ifm-color-primary);
 }
 
 .feature_card {
@@ -34,15 +49,26 @@
     padding: 0;
     width: 100%;
     gap: 0.3rem;
+    text-align: justify;
 }
 
 @media screen and (max-width: 650px) {
     .section_padding {
         padding: 4rem;
     }
+
+    .features_oras h1 {
+        font-size: 40px;
+        line-height: 60px;
+    }
 }
 
 @media screen and (max-width: 490px) {
+    .features_oras h1 {
+        font-size: 35px;
+        line-height: 48px;
+    }
+
     .section_padding {
         padding: 3rem;
     }
