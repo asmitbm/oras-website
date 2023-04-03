@@ -19,9 +19,9 @@ export default function Home() {
         <Header />
         <CommunityLogos />
         <WhatIsORAS />
+        <Features />
         <Workflow />
         <Libraries />
-        <Features />
         {/*<HomepageFeatures />*/}
       </main>
     </Layout>

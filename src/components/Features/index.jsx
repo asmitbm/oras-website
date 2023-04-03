@@ -6,23 +6,23 @@ const features = [
         title: 'Artifact Reference',
         content: (
             <>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                Able to attach supply chain artifacts to container images and show the artifact reference relationship.
             </>
         ),
     },
     {
-        title: 'Manage OCI artifact and manifest',
+        title: 'Distributed Software Artifacts',
         content: (
             <>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                Pull, push, and move any software artifacts across cloud and on-prem OCI registries.
             </>
         ),
     },
     {
-        title: 'Manage registry and repository',
+        title: 'Manage Registry and Repository',
         content: (
             <>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                Able to manage tags, repositories in OCI registry with fine-grained capabilities.
             </>
         ),
     },
