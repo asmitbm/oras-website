@@ -16,7 +16,7 @@ export default function WhatIsORAS() {
             </div>
             <div className={styles.what_is_oras_video}>
                 <iframe
-                    src="https://www.youtube.com/embed/lT2ZMRJrQsU"
+                    src="https://www.youtube.com/embed/BpKF_0M37-0"
                     title="Distributing Supply Chain Artifacts with OCI & ORAS Artifacts - Steve Lasker, Microsoft"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
