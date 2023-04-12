@@ -1,3 +1,8 @@
+oras:
+  name: ORAS Community
+  url: https://github.com/oras-project
+  image_url: https://github.com/oras-project.png
+
 slasker:
   name: Steve Lasker
   title: ORAS Maintainer

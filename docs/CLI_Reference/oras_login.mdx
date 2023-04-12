@@ -1,53 +1,67 @@
 ---
-title: oras blob delete
-sidebar_position: 2
+title: oras login
+sidebar_position: 7
 ---
 
-# oras blob delete
+# oras login
 
-Delete a blob from a remote registry.
+Log in to a remote registry.
 
 ```bash
-oras blob delete [flags] <name>@<digest>
+oras login [flags] <registry>
 ```
 
 ## Examples
 
-Delete a blob:
+Log in with username and password from command line flags:
 
 ```bash
-oras blob delete localhost:5000/hello@sha256:9a201d228ebd966211f7d1131be19f152be428bd373a92071c71d8deaf83b3e5
+oras login -u username -p password localhost:5000
 ```
 
-Delete a blob without prompting confirmation:
+Log in with username and password from stdin:
 
 ```bash
-oras blob delete --yes localhost:5000/hello@sha256:9a201d228ebd966211f7d1131be19f152be428bd373a92071c71d8deaf83b3e5
+oras login -u username --password-stdin localhost:5000
 ```
 
-Delete a blob and print its descriptor:
+Log in with identity token from command line flags:
 
 ```bash
-oras blob delete --descriptor --yes localhost:5000/hello@sha256:9a201d228ebd966211f7d1131be19f152be428bd373a92071c71d8deaf83b3e5
-```  
+oras login -p token localhost:5000
+```
+
+Log in with identity token from stdin:
+
+```bash
+oras login --password-stdin localhost:5000
+```
+
+Log in with username and password in an interactive terminal:
+
+```bash
+oras login localhost:5000
+```
+
+Log in with username and password in an interactive terminal and no TLS check:
+
+```bash
+oras login --insecure localhost:5000
+```
 
 ## Options
 
 ```
       --ca-file string                             server certificate authority file for the remote registry
   -d, --debug                                      debug mode
-      --descriptor                                 output the descriptor
-  -f, --force                                      ignore nonexistent references, never prompt
   -H, --header stringArray                         add custom headers to requests
-  -h, --help                                       help for delete
+  -h, --help                                       help for login
       --insecure                                   allow connections to SSL registry without certs
   -p, --password string                            registry password or identity token
       --password-stdin                             read password or identity token from stdin
       --plain-http                                 allow insecure connections to registry without SSL check
-      --pretty                                     prettify JSON objects printed to stdout
       --registry-config path                       path of the authentication file for registry
       --resolve host:port:address[:address_port]   customized DNS for registry, formatted in host:port:address[:address_port]
   -u, --username string                            registry username
   -v, --verbose                                    verbose output
 ```
-
